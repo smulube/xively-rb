@@ -16,6 +16,8 @@ task :default => :spec
 # run tests before building
 task :build => :spec
 
+RSpec::Core::RakeTask.new(:spec)
+
 namespace :spec do
   desc "Run all specs tagged with :focus => true"
   RSpec::Core::RakeTask.new(:focus) do |t|
