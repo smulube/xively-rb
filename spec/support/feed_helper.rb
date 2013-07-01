@@ -37,6 +37,7 @@ def feed_as_(format, options = {})
         "unit_label"=>"",
         "current_value"=>"14",
         "id"=>"0",
+        "real_id"=>"601",
         "tags"=>"humidity,Temperature, freakin lasers",
         "datapoints" => [{
           "value" => "1",
@@ -59,6 +60,7 @@ def feed_as_(format, options = {})
         "unit_label"=>"label",
         "current_value"=>"813",
         "id"=>"1",
+        "real_id"=>"602",
         "tags"=>"light level",
         "unit_symbol"=>""},
         {
@@ -79,6 +81,7 @@ def feed_as_(format, options = {})
         "unit_label"=>"",
         "current_value"=>"0",
         "id"=>"3",
+        "real_id"=>"603",
         "tags"=>"door 1",
         "unit_symbol"=>"symbol"},
         {
@@ -89,6 +92,7 @@ def feed_as_(format, options = {})
         "unit_label"=>"",
         "current_value"=>"0",
         "id"=>"4",
+        "real_id"=>"604",
         "tags"=>"door 2",
         "unit_symbol"=>""},
         {
@@ -99,6 +103,7 @@ def feed_as_(format, options = {})
         "unit_label"=>"",
         "current_value"=>"40",
         "id"=>"5",
+        "real_id"=>"605",
         "unit_symbol"=>""},
         {
         "updated" => Time.parse('2011-01-02'),
@@ -108,6 +113,7 @@ def feed_as_(format, options = {})
         "unit_label"=>"",
         "current_value"=>"15545",
         "id"=>"6",
+        "real_id"=>"606",
         "tags"=>"successes",
         "unit_symbol"=>""}]
     }

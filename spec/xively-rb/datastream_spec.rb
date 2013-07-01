@@ -4,7 +4,7 @@ require 'spec_helper'
 describe Xively::Datastream do
 
   it "should have a constant that defines the allowed keys" do
-    Xively::Datastream::ALLOWED_KEYS.should == %w(feed_id id feed_creator current_value datapoints max_value min_value tags unit_label unit_symbol unit_type updated datapoints_function)
+    Xively::Datastream::ALLOWED_KEYS.should == %w(feed_id id feed_creator current_value datapoints max_value min_value tags unit_label unit_symbol unit_type updated datapoints_function real_id)
   end
 
   describe "validation" do

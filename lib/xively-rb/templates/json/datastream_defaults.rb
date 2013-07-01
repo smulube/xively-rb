@@ -27,7 +27,8 @@ module Xively
             :tags => parse_tag_string(self.tags),
             :unit => unit_hash(options),
             :datapoints_function => datapoints_function,
-            :datapoints => datapoints
+            :datapoints => datapoints,
+            :real_id => self.real_id
           }
         end
 

@@ -25,6 +25,7 @@ module Xively
           hash["updated"] = hash.delete("at")
           hash["current_value"] = hash.delete("current_value")
           hash["tags"] = join_tags(hash["tags"])
+          hash["real_id"] = hash.delete("real_id")
           if unit = hash.delete('unit')
             hash['unit_type'] = unit['type']
             hash['unit_symbol'] = unit['symbol']

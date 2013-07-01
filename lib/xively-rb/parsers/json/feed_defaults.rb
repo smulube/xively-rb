@@ -44,6 +44,7 @@ module Xively
               "max_value" => datastream["max_value"],
               "updated" => datastream["at"],
               "tags" => join_tags(datastream["tags"]),
+              "real_id" => datastream["real_id"],
               "datapoints" => setup_datapoints(datastream["datapoints"])
             }.merge(unit_hash)
           end if hash["datastreams"]

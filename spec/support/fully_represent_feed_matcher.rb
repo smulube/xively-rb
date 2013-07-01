@@ -169,6 +169,7 @@ RSpec::Matchers.define :fully_represent_feed do |format, formatted_feed|
         datastream.max_value.should == ds["max_value"]
         datastream.updated.should == ds["at"]
         datastream.tags.should == ds["tags"].join(',')
+        datastream.real_id.should == ds["real_id"]
         if ds["unit"]
           no_units = false
           datastream.unit_label.should == ds["unit"]["label"]
